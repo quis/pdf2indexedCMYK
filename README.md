@@ -3,7 +3,7 @@ Simple conversion of a RGB pdf into an indexed CMYK pdf
 
   ./pdf2indexedCMYK input.pdf output.pdf
 
-Currently requires PDFtk, ghostscript, pyYAML, numpy
+Requires PDFtk and Ghostscript to be installed on your system.
 
 Please open an issue if you find a better way to eg. convert an a color into eg. CMYK(0.6,0,0,0.2).
 
