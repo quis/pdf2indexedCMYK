@@ -1,9 +1,9 @@
 # pdf2indexedCMYK
 Simple conversion of a RGB pdf into an indexed CMYK pdf
 
-      ./pdf2indexedCMYK input.pdf colors.yaml output.pdf
+  ./pdf2indexedCMYK input.pdf output.pdf
 
-Currently requires PDFtk, ghostscript, pyYAML, numpy 
+Currently requires PDFtk, ghostscript, pyYAML, numpy
 
 Please open an issue if you find a better way to eg. convert an a color into eg. CMYK(0.6,0,0,0.2).
 
@@ -11,7 +11,7 @@ Works for common PDFs and allows control of output color space (3 dimensions to 
 
 Uses a dictionary to translate RGB values in order to allow manually "specify" a simple color profile.
 
-Useful for keeping common CMYK values for printing while having only RGB capable vector graphics tools (like Powerpoint, Inkscape, ...). 
+Useful for keeping common CMYK values for printing with tools that only output in RGB.
 
 NOTES:
 * Does not work with Images
